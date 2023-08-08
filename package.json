@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next NODE_OPTIONS=--openssl-legacy-provider dev",
-    "build": "next NODE_OPTIONS=--openssl-legacy-provider build",
+    "build": "next build",
     "start": "next NODE_OPTIONS=--openssl-legacy-provider start"
   },
   "dependencies": {
