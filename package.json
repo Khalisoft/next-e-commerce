@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next --openssl-legacy-provider dev",
-    "build": "next build",
-    "start": "next --openssl-legacy-provider start"
+    "dev": "next NODE_OPTIONS=--openssl-legacy-provider dev",
+    "build": "next NODE_OPTIONS=--openssl-legacy-provider build",
+    "start": "next NODE_OPTIONS=--openssl-legacy-provider start"
   },
   "dependencies": {
     "@hookform/resolvers": "^1.0.0",
